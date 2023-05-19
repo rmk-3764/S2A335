@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="index3.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center">CONTACT</h2>
+    <form action="#">
+      <p>お名前<span class="must">必須</span></p>
+      <input type="text" name="usernema" />
+      <p>メールアドレス<span class="must">必須</span></p>
+      <input type="email" name="mail" />
+      <p>電話番号</p>
+      <input pattern="number" name="tel" />
+      <p>お問い合わせ<span class="must">必須</span></p>
+      <textarea name="remarks" cols="30" rows="10"></textarea>
+      <div class="btn-item">
+        <input class="btn" type="reset" onclick="alert('send now!');return false;" value="送信" />
+      </div>
+    </form>
+  </body>
+</html>

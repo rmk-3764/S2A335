@@ -1,0 +1,22 @@
+span {
+  content: '必須';
+  background-color: #f0ad4e;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 10px;
+  padding: 3px 7px;
+  margin: 0px 5px;
+  line-height: 1;
+}
+div {
+  width: 10%;
+  padding: 10px 50px;
+  background-color: #7f6666;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
